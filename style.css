@@ -1,0 +1,223 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans';
+    
+}
+#grad1{
+    background-color: #DCE36E; 
+    background-image:linear-gradient(to bottom left, #0184B9, #DCE36E)
+}
+  
+h5 {
+    font-weight: bolder;
+    text-align: center;
+    color: ivory;
+    font-size: 25px;
+}
+.Contact a{ font-size: 35px;}
+.Contact p{ font-size: 20px;
+color: ivory;
+}
+.Contact i:hover{transition: 0.3s;
+    border-radius: 5px;
+    color: rgb(204, 3, 3) ;}
+
+.carousel-inner img{ visibility: hidden;}
+
+.carousel-item {  background-size: contain; background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 100%;
+    height: 100%;}
+
+.carousel { width: 250px;
+        height: 500px;}
+.carousel-inner { height: 100%;}
+
+.card {border-radius: 10px;}
+
+.btn-primary{border-color: #7732DD;
+border-radius: 10px;}
+
+b{
+    color: #905bdf;
+}
+
+
+@media screen and (min-width: 375px){
+    /*navbar-small*/
+.nav-item a{  
+     list-style:none;
+     text-decoration: none;
+     color: ivory;
+     padding: 5px;
+     font-weight: 700;
+     font-size: 20px;
+     margin-top: 15px;
+    
+    }
+    .nav-item a:hover{
+        transition: 0.3s;
+        border-radius: 5px;
+        -webkit-text-stroke: 1px;
+        color: rgb(204, 3, 3) ;
+    }
+ .nav-item img{
+     height: 60px;
+     margin-top: -13px; 
+     padding:0%  
+ }
+
+
+/*Forside*/
+.index img{
+    height: 350px;
+    width: 350px;
+    margin-top: 60px;
+}
+.index h1{
+    font-size: 60px;
+    color:ivory; 
+    font-weight: 900;
+    text-align: center;
+}
+/*Skills*/
+.undertitel h4{
+    text-align: center;
+    color: ivory;
+    font-size: 50px;
+    font-weight: 700;
+}
+.broektitel p{
+    margin-top: -20px;
+    color: ivory;
+    font-weight:300;
+}
+
+
+.Skillstxt{
+    color: ivory;
+}
+.Skillstxt h3{
+    font-weight: bold;
+}
+.Skillstxt p{
+    font-weight: 300;
+}
+
+.aboutme p{
+    margin-left: 20px;}
+
+
+/*Footer-small-medium-large*/
+.flex-foot p{
+    font-size: 10px;
+    font-weight: bold;
+    }
+.flex-foot{
+    color: ivory;
+    padding-left: 25px;
+    display: flex;
+    margin-top: 55px;
+    margin-bottom: 20px;
+}     
+.flex-foot :hover{
+    color: rgb(204, 3, 3);
+  
+}   
+.flex-foot a{ 
+    font-size: x-large;
+}
+.pfooter {
+    color: ivory;
+}
+.text-white{
+    text-decoration: none;}
+    .xd {visibility: hidden;}
+.underc {height: 300px; }
+
+
+}
+
+
+@media screen and (min-width: 768px){
+/*Navbar*/
+    .nav-item a{  
+        list-style:none;
+        text-decoration: none;
+        color: ivory;
+        padding: 5px;
+        font-weight: 700;
+        font-size: 30px;
+        margin-top: 15px;
+       
+       }
+       .nav-item a:hover{
+           transition: 0.3s;
+           border-radius: 5px;
+           -webkit-text-stroke: 1px;
+           color: rgb(204, 3, 3) ;
+       }
+/*Skills*/
+.undertitel h4{
+    text-align: center;
+    color: ivory;
+    font-size: 50px;
+    font-weight: 700;
+}
+.broektitel p{
+    margin-top: -20px;
+    color: ivory;
+    font-weight:300;
+}
+
+.Skillstxt{
+    color: ivory;
+}
+.Skillstxt h3{
+    font-weight: bold;
+}
+.Skillstxt p{
+    font-weight: 300;
+}
+.aboutme p{margin-top: 30px;
+    margin-left: 60px;
+margin-right: 20px;}
+.xd {height: 800px;width: 700px;visibility: visible;}
+.underc {height: 500px; }
+}
+
+@media screen and (min-width: 1200px){
+    .nav-item a{  
+        list-style:none;
+        text-decoration: none;
+        color: ivory;
+        padding: 5px;
+        font-weight: 700;
+        font-size: 30px;
+        margin-top: 15px;
+        width: 210.25px;
+       
+       }
+       .nav-item a:hover{
+           transition: 0.3s;
+           border-radius: 5px;
+           -webkit-text-stroke: 1px;
+           color: rgb(204, 3, 3) ;
+       }
+
+       .aboutme p{margin-top: 30px;
+        margin-left: 60px;
+    margin-right: 20px;}
+
+     .clearfix img{ width: 475px;
+        padding-right: 50px;
+    }
+    .formular{margin-left: 100px;
+    }
+    .Contact p{ font-size: 20px;
+    color: ivory;
+    margin-left: -300px;}
+  
+.xd {height: 800px;width: 1200px;visibility: visible;}
+}
